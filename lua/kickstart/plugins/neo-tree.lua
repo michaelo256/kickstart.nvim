@@ -18,6 +18,8 @@ return {
       window = {
         mappings = {
           ['\\'] = 'close_window',
+	  ['/'] = 'noop', -- do default nvim
+	  ['k'] = 'fuzzy_finder',
         },
       },
     },
