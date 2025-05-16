@@ -19,7 +19,7 @@ return {
         mappings = {
           ['\\'] = 'close_window',
 	  ['/'] = 'noop', -- do default nvim
-	  ['k'] = 'fuzzy_finder',
+	  ['W'] = 'fuzzy_finder',
         },
       },
     },
